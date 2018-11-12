@@ -10,7 +10,7 @@ import net.dv8tion.jda.core.JDABuilder;
 
 public class BotMain {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         try {
 
             JDA jda = new JDABuilder(AccountType.BOT).setToken(References.getToken()).build();
