@@ -7,7 +7,7 @@ import net.dv8tion.jda.core.entities.MessageChannel;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-import java.util.Date;
+
 
 public class CommandHandler extends ListenerAdapter {
     java.util.Date date = new java.util.Date();
@@ -21,7 +21,7 @@ public class CommandHandler extends ListenerAdapter {
 
         if(content.startsWith("!ebay")) {
             new EbayViews(event);
-            System.out.println(date + ": View request received.");
+            System.out.println(date + ": Request received.");
         }
     }
 }

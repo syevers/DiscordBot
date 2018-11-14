@@ -4,10 +4,10 @@ import net.dv8tion.jda.core.entities.*;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 
 public abstract class Modules {
-    String command;
+     String command;
     MessageReceivedEvent event;
     MessageChannel channel;
-    Message message;
+    //Message message;
     User user;
     Member member;
     Guild guild;
