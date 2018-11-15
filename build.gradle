@@ -1,9 +1,10 @@
 plugins {
     id'java'
+    id'application'
     id'com.github.johnrengelman.shadow' version '2.0.1'
 }
 
-//mainClassName = 'com.donovan.jda.BotMain'
+mainClassName = 'com.donovan.jda.BotMain'
 
 version '1.0'
 def jdaVersion = '3.8.1_439'

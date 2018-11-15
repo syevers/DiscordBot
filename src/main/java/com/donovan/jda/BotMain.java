@@ -12,10 +12,12 @@ import javax.security.auth.login.LoginException;
 
 public class BotMain {
 
-    public static void main(String[] args) throws LoginException {
+    public static void main(String[] args) throws LoginException, InterruptedException {
 
-            JDA jda = new JDABuilder(AccountType.BOT).setToken(References.getToken()).build();
-            jda.addEventListener(new CommandHandler());
+            JDA jda = new JDABuilder(AccountType.BOT)
+                    .setToken(References.getToken())
+                    .addEventListener(new CommandHandler())
+                    .build().awaitReady();
 
     }
 
