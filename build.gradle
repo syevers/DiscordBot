@@ -9,6 +9,7 @@ mainClassName = 'com.donovan.jda.BotMain'
 version '1.0'
 def jdaVersion = '3.8.1_439'
 
+sourceCompatibility = 10
 
 
 repositories {

@@ -10,10 +10,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/donovan/jda/BotMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/donovan/jda/BotMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/Application-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/donovan/jda/BotMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/donovan/jda/BotMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,6 +50,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Application" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Application" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
@@ -61,6 +63,11 @@
                 <item name="Application" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Application" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -93,27 +100,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="72" />
+          <entry key="gradle" value="74" />
           <entry key="java" value="321" />
-          <entry key="txt" value="196" />
+          <entry key="txt" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="72" />
+          <entry key="Groovy" value="74" />
           <entry key="JAVA" value="321" />
-          <entry key="PLAIN_TEXT" value="196" />
+          <entry key="PLAIN_TEXT" value="210" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/donovan/jda/BotMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -648,8 +655,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/donovan/jda/modules/EbayViews.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/donovan/jda/modules/Modules.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/donovan/jda/commandhandler/CommandHandler.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/donovan/jda/BotMain.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -724,7 +731,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542260159706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542274988493" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -744,7 +751,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BotMain">
+  <component name="RunManager">
     <configuration name="BotMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.donovan.jda.BotMain" />
       <module name="Application_main" />
@@ -797,7 +804,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541923537501</updated>
-      <workItem from="1541923541953" duration="13615000" />
+      <workItem from="1541923541953" duration="14142000" />
     </task>
     <task id="LOCAL-00001" summary="hoping this fixes heroku">
       <created>1541976367652</created>
@@ -869,7 +876,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542259377882</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lets hope">
+      <created>1542260204916</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542260204916</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -878,7 +892,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13615000" />
+    <option name="totallyTimeSpent" value="14142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="63" width="1673" height="987" extended-state="0" />
@@ -899,7 +913,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4992636" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4992636" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -908,7 +922,7 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Gradle" visible="true" weight="0.26977316" />
+      <window_info active="true" anchor="right" id="Gradle" visible="true" weight="0.26977316" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Coverage" side_tool="true" />
@@ -929,7 +943,8 @@
     <MESSAGE value="added task config so that build runs before gradle... hopefully this fixed it" />
     <MESSAGE value="removed run task" />
     <MESSAGE value="changed procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed procfile" />
+    <MESSAGE value="lets hope" />
+    <option name="LAST_COMMIT_MESSAGE" value="lets hope" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -972,13 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/donovan/jda/modules/Modules.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -991,11 +999,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/donovan/jda/BotMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
