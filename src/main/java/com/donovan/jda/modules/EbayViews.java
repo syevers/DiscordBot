@@ -27,7 +27,7 @@ public class EbayViews extends Modules {
 
         for (int i = 0; i <= viewNum; ++i) {
             client.sendAsync(request, HttpResponse.BodyHandlers.ofString())
-                    .thenApply(HttpResponse::statusCode)
+
                     .join();
         }
 
